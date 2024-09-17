@@ -1,0 +1,30 @@
+body{
+    background-color:black;
+}
+h2{
+    color: rgb(209, 48, 161);
+    font-weight:600;
+    margin: 1rem;
+ }
+ h3{
+    color: white;
+    margin:1rem;
+    font-weight:400;
+ }
+ p{
+    margin: 2rem;
+    color: white;
+ }
+ nav{
+    color: purple;
+    font-family: verdana;
+    font-size: 15pt;
+ }
+ ul{
+    color:white;
+ }
+ ol{
+    color:white
+ }
+ main{color:white}
+ img{padding: 1rem;}
