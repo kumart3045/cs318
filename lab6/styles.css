@@ -1,0 +1,61 @@
+body {
+    background-image: url(https://www.creativefabrica.com/wp-content/uploads/2021/02/16/Mandala-Background-Design-Graphics-8670318-1.jpg);
+    background-size:70rem;
+    background-position: top;
+    background-repeat:repeat;
+   }
+
+header{
+    background-color: #9e0059;
+    color: #fff;
+    vertical-align: middle;
+}
+
+header>nav>a{
+    background-color:#9e0059;
+    color:#fff;
+    text-decoration:none ;
+    padding:1rem;
+    display: inline-block;
+}
+
+header>nav{
+    padding-top: 0rem;
+    padding-right: 0rem;
+    padding-bottom: 0rem;
+    padding-left: 0rem;
+    text-align: center;
+}
+
+header>nav>a:hover{
+    background-color:#ffbd00;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+header>nav>a{
+    border: 1px solid transparent;
+}
+
+main{
+    background-color:#9e0059;
+    padding:1rem;
+    max-width:80rem;
+    margin:1rem auto;
+}
+
+h1{
+    color:#ffbd00;
+}
+
+h3{
+    color:#ffbd00;
+}
+
+p{
+    color:#fff;
+}
+
+li{
+    color:#fff;
+}
