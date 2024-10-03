@@ -112,7 +112,7 @@ span.rotate{
     transform: rotate(90deg);
     z-index:1;
     top: 30rem;
-    right: calc(1% - 90px);
+    right: calc(1% - 95px);
 }
 
 section>h2{
