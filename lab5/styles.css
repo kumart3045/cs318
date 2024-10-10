@@ -10,6 +10,7 @@ header{
 
 header>img{
     max-width: 6rem;
+    /*Remove the space between 1 and rem*/
     margin:1 rem;
 }
 
@@ -89,6 +90,7 @@ article>footer span{
 }
 
 body>footer{
+    /*Should be background-color*/
     background color:#275218;
     color:#fff;
     padding:1rem;
