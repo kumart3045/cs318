@@ -208,13 +208,122 @@ h3{
     content:url(images/coffee.svg);
 }
 
-Lab 15 About icon
-content:url(images/take-away.svg);
-.order h2:after, .order h2:before
+.order h2:after, .order h2:before{
+    content:url(images/take-away.svg);
+    width: 2rem;
+    top: 1.5rem;
+}
 
- content
+form{
+    padding: 1rem;
+}
 
-Lab 15 Order Icon
- width 2rem
+.row{
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: .5rem 0;
+    background-color: #ebebeb;
+    padding: .5rem 2rem .5rem .5rem;
+    position: relative;
+}
 
- top 1.5rem
+.delete, .close{
+    background-color: rgb(255,49,49);
+    color: #fff;
+    border-radius: 1rem;
+    text-align: center;
+    font-family: sans-serif;
+    padding: .25rem .5rem;
+    pointer: cursor;
+}
+
+.delete:hover, .close:hover{
+    background-color: rgb(171,36,36);
+}
+
+.delete, .close{
+    transition: .2s ease-in-out;
+}
+
+.delete, .close{
+    position: absolute;
+
+    top: .5rem;
+   
+    right: .5rem;
+}
+
+.add-button{
+    cursor: pointer;
+
+ display: inline-block;
+
+ margin: 0 0 .5rem;
+}
+
+.add-button>span{
+    color: #9a82e8;
+    font-size: 1.25rem;
+    transition: .2s ease-in-out;
+}
+
+.add-button>span:hover{
+    color: #3b325a;
+}
+
+dialog.show{
+    display: block;
+    position: absolute;
+
+    top: 50%;
+   
+    z-index: 2;
+   
+    background-color: #9a82e8;
+   
+    color: #fff;
+   
+    padding: 2rem;
+}
+
+form{
+    position: relative;
+}
+
+dialog p{
+    margin: 0;
+}
+
+@media (min-width:1000px) {
+    .gallery img{
+        max-width: 50vw;
+        height: calc(50vw / 1.778);
+    }
+    .gallery{
+        height: calc(50vw / 1.778);
+    }
+    .about{
+        display:grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 1rem;
+    }
+    .about h2{
+        grid-column: 2;
+    }
+
+    .about img:nth-child(3){
+        grid-area:2/2/4/3;
+    }
+
+    .about img:nth-child(5){
+        grid-area:4/2/6/3;
+    }
+
+    section{
+        max-width: 50rem;
+        margin: 1rem auto;
+    }
+
+}
