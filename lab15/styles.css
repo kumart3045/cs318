@@ -236,7 +236,7 @@ form{
     text-align: center;
     font-family: sans-serif;
     padding: .25rem .5rem;
-    pointer: cursor;/*Swap these. Should be cursor:pointer; */
+    cursor: pointer;/*Swap these. Should be cursor:pointer; */
 }
 
 .delete:hover, .close:hover{

@@ -2,7 +2,8 @@
         background-color: #386641;
         display: flex;
         justify-content:space-between;
-        position:relative;
+        position:fixed;
+        top:0;
     }
 
     footer{
